@@ -1,0 +1,109 @@
+/* #navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #948e8e;
+padding: 15px 30px;
+height: 150px;
+} */ 
+  #nav{
+    background-color:black;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: white;
+padding: 20px 30px;
+}
+#nav a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px2;
+}
+.A{
+    font-size: 30px;
+}
+input{
+    padding: 5px;
+   margin-top: 10px;
+    width: 450px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+  border-radius: 10px;
+}
+li{
+    margin-top: 20px;
+}
+#i{
+   font-size: 50px;
+}
+i{
+     font-size: 30px;
+   margin-left: 20px;
+}
+#nav2{
+    background-color: grey;
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    color: white;
+    height: 100px;
+    justify-content: space-around;
+    font-size: 40px; 
+    font-weight: bold;
+  text-align: center;
+}
+#nav2 a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+    /* padding: 15px 30px2; */
+} 
+.cat-menu {
+  position: relative;
+}
+.cat-title {
+  cursor: pointer;
+}
+/* Initially hidden */
+.cat-drop {
+  position: absolute;
+  top: 100px;
+  width: 100vw;
+  background: white;
+ color: #52657a;
+  font-size: 17px;
+  cursor: pointer;
+  display: flex;
+  gap: 100px;
+  padding: 30px 40px;
+}
+
+/* Cats hover pannumbothu show */
+.cat-menu:hover .cat-drop {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Text hover */
+.cat-drop p:hover {
+  color: black;
+  transform: translateX(5px);
+}
+
+/* Light blinking effect */
+.cat-menu:hover .cat-drop {
+  animation: blinkLight 1s infinite alternate;
+}
+
+@keyframes blinkLight {
+  from {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  }
+
+  to {
+    box-shadow: 0 5px 30px rgba(255,220,80,0.8);
+  }
+}
+
