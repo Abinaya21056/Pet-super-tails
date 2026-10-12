@@ -1,0 +1,280 @@
+
+
+#account-order{
+  margin: 100px 100px;
+
+}
+#o {
+  margin-top: 30px;
+  padding: 20px 10px;
+  width: 550px;
+ height: 90px;
+   position:sticky;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+#o:hover{
+  background-color:rgb(245, 226, 191);
+  border: 1px solid orangered;
+}
+#r{
+  margin-top: 30px;
+   padding: 20px 10px;
+  width: 550px;
+height: 90px;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+#r:hover{
+  background-color:rgb(245, 226, 191);
+  border: 1px solid orangered;
+}
+#d{
+   margin-top: 30px;
+  width: 550px;
+   padding: 20px 10px;
+ height: 90px;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+#d:hover{
+  background-color:rgb(245, 226, 191);
+  border: 1px solid orangered;
+}
+#er{
+   margin-top: 30px;
+    padding: 20px 10px;
+  width: 550px;
+ height: 90px;
+   font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+#er:hover{
+  background-color:rgb(245, 226, 191);
+  border: 1px solid orangered;
+}
+#r{
+   margin-top: 30px;
+    padding: 20px 10px;
+  width: 550px;
+height: 90px;
+    font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+#r:hover{
+  background-color:rgb(245, 226, 191);
+  border: 1px solid orangered;
+}
+#rs{
+   margin-top: 30px;
+  width: 550px;
+   padding: 20px 10px;
+ height: 90px;
+   font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+#rs:hover{
+  background-color:rgb(245, 226, 191);
+  border: 1px solid orangered;
+}
+#re{
+   margin-top: 30px;
+  width: 550px;
+  height: 90px;
+   font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+   padding: 20px 10px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+#re:hover{
+  background-color:rgb(245, 226, 191);
+  border: 1px solid orangered;
+}
+#hg{
+  margin-left: 500px;
+  text-align: center;
+  width: 550px;
+}
+#try-ag{
+  width: 250px;
+  height: 50px;
+   margin-top: 30px;
+  border-radius: 20px;
+  background-color: orangered;
+  font-size: 30px;
+  margin-left: 600px;
+  color: white;
+}
+#no{
+  margin-top: 30px;
+}
+#add{
+  right: 100px;
+  position: relative;
+  text-align: center;
+  width: 550px;
+}
+#myaddress{
+  background-color: white;
+  width: 990px;
+  margin-left: 700px;
+  height: 90px;
+     padding: 20px 10px;
+       box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+
+}
+#newadd{
+  margin-left: 500px;
+  text-align: center;
+  width: 550px;
+position: relative;
+bottom: 30px;
+   
+}
+#subcription{
+  /* align-items: center; */
+   margin-left: 900px;
+  
+  
+}
+#your{
+ font-size: 40px;
+  width: 400px;
+text-align: center;
+ margin-left: 150px;
+}
+#yet{
+  width: 850px;
+  height: 50px;
+  text-align: center;
+  /* margin-left: 500px; */
+  background-color: white;
+    margin-top: 50px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1) ;
+}
+#invite{
+  margin-left: 700px;
+  position: relative;
+bottom: 100px;
+}
+#htt{
+  background-color:white;
+ border: 1px solid orangered;
+   width: 500px;
+   padding: 10px 10px;
+   height: 55px;
+   margin-top:50px;
+}
+#copy{
+  margin-left: 550px;
+   width: 240px;
+   height: 50px;
+   margin-top: 50px;
+    position: relative;
+bottom: 100px;
+background-color: orangered;
+color: white;
+font-size: 25px;
+}
+.copy{
+    margin-left: 830px;
+   width: 240px;
+   height: 50px;
+     position: relative;
+bottom: 150px;
+background-color: orangered;
+color: white;
+font-size: 27px;
+}
+#media{
+  position: relative;
+bottom: 90px;
+ margin-left: 250px;
+   width: 300px;
+}
+#what{
+  display: flex;
+   margin-left: 250px;
+    position: relative;
+bottom: 60px;
+}
+#app{
+  color: green;
+  font-size: 40px;
+}
+#facebook{
+  color: blue;
+font-size: 40px;
+}
+#insta{
+  color: rgb(236, 102, 165);
+  font-size: 40px;
+}
+#twitter{
+  color: rgb(1, 182, 243);
+ font-size: 40px;
+}
+#worry{
+   margin-left: 100px;
+   width: 900px;
+     color: rgb(161, 159, 160);
+}
+#terms{
+   width: 400px;
+     margin-top: 20px;
+}
+.code{
+  width: 1000px;
+  padding: 10px 10px;
+  color: rgb(70, 69, 69);
+}
+#ar{
+  color: black;
+}
+#row{
+  color: black;
+}
+#account-user{
+  margin-left: 800px;
+  position: relative;
+  bottom: 300px;
+  width: 100%;
+}
+#ii{
+background-color: white;
+border: 1px solid black;
+padding: 10px 10px;
+border-radius: 20px;
+margin-top: 30px;
+}
+.clna{
+ top: 20px;
+   position: relative;
+}
+#abi{
+  background-color: white;
+border: 1px solid black;
+padding: 10px 10px;
+border-radius: 20px;
+margin-top: 30px;
+}
+#vi{
+  background-color: white;
+border: 1px solid black;
+padding: 10px 10px;
+border-radius: 20px;
+margin-top: 30px;
+}
