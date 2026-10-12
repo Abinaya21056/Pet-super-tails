@@ -1,0 +1,121 @@
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.login-container {
+  width: 450px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.phone-box {
+  height: 65px;
+  border: 1px solid #bbb;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.flag {
+  font-size: 22px;
+}
+
+.arrow {
+  font-size: 22px;
+  margin-left: 8px;
+  margin-right: 15px;
+}
+
+.phone-box input {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  width: 100%;
+}
+
+.otp-btn {
+  width: 100%;
+  height: 65px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #f4773c;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0;
+  color: #777;
+}
+
+.or span {
+  height: 1px;
+  background: #ddd;
+  flex: 1;
+}
+
+.whatsapp-btn {
+  width: 220px;
+  height: 55px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 17px;
+  color: #555;
+}
+
+.terms {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #777;
+  line-height: 20px;
+}
+
+.otp-section {
+  margin-top: 20px;
+}
+
+.otp-section input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.otp-section button {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #f4773c;
+  color: white;
+  font-size: 17px;
+}

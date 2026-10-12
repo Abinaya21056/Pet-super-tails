@@ -1,0 +1,117 @@
+#cats{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+#c-food{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+#c-breed{
+    display: flex;
+gap: 50px;
+margin:30px 150px;
+}
+
+#catfood-e{
+    display: flex;
+    gap: 30px;
+}
+
+#cathealthcare{
+    display: flex;
+    gap: 30px;
+}
+.h-ead{
+font-size: 40px;
+
+}
+#l-r{
+    display: flex;
+    gap: 100px;
+    margin:30px 150px;
+}
+#l-a{
+display: flex;
+margin: 20px 20px;
+}
+#tree{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+
+}
+#a{
+    border-radius: 30px;
+    margin: 40px 40px;
+}
+#cat-p{
+    display: flex;
+    gap: 30px;
+}
+.cat{
+    border-radius: 30px;
+      margin: 40px 25px;
+}
+.name{
+    font-size: 35px;
+    position: relative;
+   bottom: 30px;
+  text-align: center;
+}
+#cat-mon{
+    display: flex;
+     gap: 90px;
+     background-color: rgb(64, 152, 181);
+     padding: 20px;
+     height: 370px;
+     overflow-x: scroll;
+     scrollbar-width: none;
+}
+.img{
+    font-size: 35px;
+font-variant: small-caps;
+     text-align: center;
+}
+.ac{
+     background-color: rgb(228, 211, 211);
+     border-radius: 40px;
+     padding: 30px 40px;
+}
+#scoopy{
+    display: flex;
+    padding: 20px 20px;
+    gap: 60px;
+    background-color: rgb(43, 226, 223);
+}
+.s-c{
+     background-color: rgb(213, 171, 218);
+     border-radius: 40px;
+     padding: 30px 20px;
+     
+}
+.s-p{
+    font-size: 35px;
+font-variant: small-caps;
+  text-align: center;
+}
+#cat-ph{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    padding: 30px 40px;
+    gap: 30px;
+    background-color: rgb(137, 142, 248);
+}
+.sp-cat{
+ background-color: rgb(255, 255, 255);
+     border-radius: 40px;
+     padding: 30px 20px;
+}
+.name-sp{
+     font-size: 35px;
+font-variant: small-caps;
+  text-align: center;
+}

@@ -1,0 +1,320 @@
+
+.cart-page {
+  min-height: 100vh;
+  background: #f6f3ef;
+  padding: 40px 7%;
+}
+
+.cart-page h1 {
+  color: #6f4e37;
+  margin-bottom: 30px;
+}
+ #continue{
+    background-color: orangered;
+    width: 250px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 10px;
+ }
+/* .cart-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+   margin-top: 75px;
+
+} */
+
+/* CART CARD */
+
+.cart-card {
+  background: white;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.cart-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-info h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 25px;
+}
+
+.cart-price {
+  color: #777;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* QUANTITY */
+
+.cart-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 12px;
+   font-size: 20px;
+}
+
+.cart-actions button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #6f4e37;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cart-actions span {
+  font-weight: bold;
+}
+
+/* ITEM TOTAL */
+
+.item-total {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6f4e37;
+  margin-bottom: 10px;
+}
+
+/* REMOVE */
+
+.remove-btn {
+  border: none;
+  background: #e74c3c;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+   font-size: 18px;
+}
+
+.remove-btn:hover {
+  background: #c0392b;
+}
+  #ca-rt {
+      grid-column: 1 / -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 850px;
+  max-width: 100%;
+
+  margin: 0 auto;
+
+  padding: 15px 20px;
+
+  font-size: 25px;
+  gap: 20px;
+
+  background-color: white;
+
+  box-shadow: 0px 10px 16px rgb(165, 156, 156);
+
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+#ca-rt a {
+  text-decoration: none;
+  color: #5b149c;
+  text-align: center;
+}
+
+#ca-rt p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* SUMMARY div */
+
+.cart-summary {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  height: fit-content;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.cart-summary h2 {
+  color: #6f4e37;
+  margin-bottom: 25px;
+}
+
+.summary-row,
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+   font-size: 20px;
+}
+
+.total-row {
+  font-size: 25px;
+  color: #333;
+}
+
+.total-row strong {
+  color: #6f4e37;
+}
+
+.cart-summary hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* CHECKOUT */
+
+.checkout-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background: #27ae60;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.checkout-btn:hover {
+  background: #219150;
+}
+
+/* EMPTY CART */
+
+.empty-cart {
+  background: white;
+  padding: 60px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.empty-cart h2 {
+  margin-bottom: 10px;
+  color: #6f4e37;
+}
+
+.empty-cart p {
+  color: #777;
+}
+
+/* MOBILE
+
+@media (max-width: 768px) {
+
+  .cart-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-card {
+    flex-direction: column;
+  }
+
+  .cart-card img {
+    width: 100%;
+    height: 220px;
+  }
+
+} */
+
+.cart-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+
+  margin-top: 40px;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* CART + ADDRESS + REVIEW + PAYMENT */
+#ca-rt {
+  grid-column: 1 / -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 970px;
+  max-width: 100%;
+
+  margin: 0 auto;
+
+  padding: 12px 20px;
+
+  font-size: 30px;
+  gap: 15px;
+
+  background-color: white;
+
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+
+/* CART ITEMS - LEFT SIDE */
+.cart-items {
+  grid-column: 1;
+  width: 100%;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .cart-container {
+    grid-template-columns: 1fr;
+  }
+
+  #ca-rt {
+    grid-column: 1;
+    width: 100%;
+  }
+
+  .cart-items {
+    grid-column: 1;
+  }
+
+  .cart-summary {
+    grid-column: 1;
+  }
+
+  .cart-card {
+    flex-direction: column;
+  }
+
+  .cart-card img {
+    width: 100%;
+    height: 220px;
+  }
+}

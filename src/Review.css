@@ -1,0 +1,169 @@
+.review-container {
+    width: 100%;
+    min-height: 100vh;
+    background: #f5f3f0;
+    padding: 40px 5%;
+    box-sizing: border-box;
+}
+
+/* Address */
+
+.address-box {
+    width: 500px;
+    background: white;
+    padding: 12px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    font-size: 20px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.delivery-title {
+    font-size: 30px;
+   font-weight: bold;
+    margin-bottom: 45px;
+}
+
+/* Main layout */
+
+.review-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+/* LEFT */
+
+.cart-section {
+    width: 55%;
+}
+
+.delivery-group {
+    margin-bottom: 35px;
+}
+
+/* Delivery box */
+
+.delivery-box {
+    width: 100%;
+    max-width: 640px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    margin-bottom: 35px;
+       font-size: 25px;
+}
+
+.delivery-box h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.delivery-box p {
+    margin: 5px 0 0 38px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Product */
+
+.product-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.product-image {
+    width: 90px;
+    height: 90px;
+
+    /* object-fit: contain; */
+    background: white;
+}
+
+.product-info {
+    padding-top: 5px;
+}
+
+.product-name {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.product-size {
+    font-size: 14px;
+    color: #666;
+}
+
+/* RIGHT SIDE */
+
+.order-summary {
+    width: 48%;
+    max-width: 610px;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+}
+
+.order-summary h3 {
+    margin-top: 0;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.summary-item span {
+    font-size: 12px;
+    color: #555;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.total {
+    font-size: 16px;
+}
+
+.checkout-btn {
+    width: 100%;
+    border: none;
+    background: #20b45b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background: #199b4e;
+}
+/* #deli-verys{
+    
+   display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  padding: 20px 150px;
+  background-color: rgb(197, 236, 197);
+  margin-top: -70px;
+
+} */
+ 

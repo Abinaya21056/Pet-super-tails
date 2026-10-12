@@ -104,7 +104,7 @@ function App(){
      <Route path="/contact"element={<Contact/>}/>
      <Route path="/dogfood"element={<Dogfood cart={cart} setCart={setCart} />}/>
      <Route path="/Login"element={<Login/>}/>
-     <Route path="/Order"element={<Order/>}/>
+     <Route path="/Order"element={<Order cart={cart} setCart={setCart} />}/>
      <Route path="/Address"element={<Address cart={cart} setCart={setCart}/>}/>
      <Route path="/Cart"element={<Cartpage  cart={cart}setCart={setCart}/>}/>
       <Route path="/review"element={<Review cart={cart} setCart={setCart}/>}/>

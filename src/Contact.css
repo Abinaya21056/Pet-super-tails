@@ -1,0 +1,211 @@
+#getting{
+    background-color:white;
+     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 1500px;
+    height: 50px;
+    padding: 60px 20px ;
+    position: relative;
+    top: 200px;
+    border-radius: 30px;
+    left: 180px;
+    box-shadow: 20px;
+}
+#username{
+  font-size: 30px;
+margin-left: 215px;
+margin-top: 200px;
+
+}
+#easy{
+  /* margin-left: 100px; */
+  margin: 0px 100px;
+  position: relative;
+  bottom: 60px;
+  font-size: 30px;
+}
+#o-d{
+       margin: 0px 100px;
+  position: relative;
+  bottom: 40px;
+  font-size: 25px;
+  color: gray;
+
+}
+.order-t{
+     margin: 0px 100px;
+  position: relative;
+  bottom: 70px;
+  font-size: 25px;
+  color: gray;
+}
+#sign-in{
+  margin-left: 1200px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: orangered;
+  font-size: 25px;
+ position: relative;
+ bottom: 110px;
+}
+#q-l{
+  background-color: white;
+ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+ color: black;
+    width: 500px;
+    height: 60px;
+    padding: 60px 20px ;
+    position: relative;
+    top: 220px;
+    border-radius: 30px;
+    /* left: 50px; */
+    box-shadow: 20px;
+}
+#arrow{
+padding: 0px 400px ;
+position: relative;
+bottom: 150px;
+font-size: 30px;
+color: green;
+}
+.e-y{
+   margin: 0px 100px;
+  position: relative;
+  bottom: 70px;
+  font-size: 30px;
+  
+}
+.Track-link{
+text-decoration: none;
+  color: inherit;
+}
+#return-order{
+  background-color: white;
+ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+ color: black;
+    width: 500px;
+    height: 60px;
+    padding: 60px 20px ;
+    position: relative;
+    top: 220px;
+    border-radius: 30px;
+    left: 50px;
+    box-shadow: 20px;
+}
+#chat-vet{
+  background-color: white;
+ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+ color: black;
+    width: 500px;
+    height: 60px;
+    padding: 60px 20px ;
+    position: relative;
+    top: 220px;
+    border-radius: 30px;
+    left:70px;
+    box-shadow: 20px;
+}
+#quick-link{
+  display: flex;
+  top: 100px;
+  position: relative;
+}
+.head{
+ left: 220px;
+  position: relative;
+  top: 150px;
+}
+#head-q{
+   left: 180px;
+  position: relative;
+  top: 150px;
+}
+.list{
+  position: relative;
+  top: 400px;
+  width: 350px;
+  height: 100px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+ color: black;
+}
+#l-ist{
+  position: relative;
+  top: 330px;
+  width: 350px;
+  height: 100px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+ color: black;
+}
+#browse-topic{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 10px 40px;
+}
+.r-e{
+ position: relative;
+  bottom: 30px;
+  color:black;
+  left: 65px;
+  font-size: 25px;
+  padding: 20px 10px;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+#get-touch{
+  position: relative;
+  top: 400px;
+  padding: 20px 60px;
+  font-size: 25px;
+}
+#call-in{
+  padding: 40px 20px;
+
+}
+.us{
+ padding: 0px 100px;
+ position: relative;
+ bottom: 30px;
+}
+#list-all{
+  width: 450px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px 10px;
+   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+#hi{
+  font-size: 35px;
+}
+#via{
+  font-size: 25px;
+}
+#delivery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  padding: 20px 150px;
+  background-color: lightgreen;
+  margin-top: 500px;
+}
+.hr{
+  margin-left: 100px;
+position: relative;
+bottom: 30px;
+}
+.exclusive{
+    margin-left: 100px;
+position: relative;
+bottom: 20px;
+font-size: 25px;
+
+}
